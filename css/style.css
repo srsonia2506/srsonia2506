@@ -1,0 +1,47 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  font-smoothing: antialiased;
+  height: 100%; }
+
+a {
+  color: inherit;
+  text-decoration: none !important; }
+
+@media (min-width: 1024px) {
+  #home h1 p {
+    font-size: 42px;
+    font-weight: 400; }
+  #home h1 strong {
+    font-size: 46px; } }
+
+.dark-gray-background { background-color: #F2F2F2; }
+.light-white-font { color: #222426; }
+.middle-blue-font { color: #960019 !important; }
+
+.center {
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.container-fluid {
+  min-height: 100%;
+  height: 100%;
+  padding: 0; }
+
+.fixed-width {
+  max-width: 300px;
+  min-width: 300px; }
+
+.typed-cursor {
+  animation: blink .7s infinite;
+  opacity: 1; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
